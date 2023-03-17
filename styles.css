@@ -1,6 +1,19 @@
-body:before {
-    content: "";
-    height: 60px;
-    display: block;
+
+
+.logo  {
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    text-transform: uppercase;    line-height: 60px;
 }
 
+.carousel-title {
+    z-index: 10;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    z-index:  100;
+}
+
+.carousel img {
+    height: 50vh;
+    object-fit: cover;
+}
