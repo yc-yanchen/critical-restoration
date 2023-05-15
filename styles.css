@@ -1,8 +1,11 @@
-
-
+@import "./public/node_modules/bootstrap/scss/_variables.scss"
+.hidden {
+    display: none;
+}
 .logo  {
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
-    text-transform: uppercase;    line-height: 60px;
+    text-transform: uppercase;    
+    line-height: 60px;
 }
 
 .carousel-title {
@@ -17,3 +20,5 @@
     height: 50vh;
     object-fit: cover;
 }
+
+$primary: #1c9fb0;
