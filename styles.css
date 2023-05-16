@@ -1,4 +1,4 @@
-@import "./public/node_modules/bootstrap/scss/_variables.scss"
+@import "./public/node_modules/bootstrap/scss/_variables.scss";
 .hidden {
     display: none;
 }
@@ -21,4 +21,7 @@
     object-fit: cover;
 }
 
-$primary: #1c9fb0;
+.hero-text {
+    text-shadow: 3px 3px 4px rgba(0,0,0,0.66);
+
+}
